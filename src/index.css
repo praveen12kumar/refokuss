@@ -7,3 +7,13 @@
     --primary-color: #1F1E24;
     --secondary-color:#6556CD;
 }
+
+::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+    border-radius: 10px;
+  }
